@@ -11,7 +11,7 @@ Everything here is chicken scratch back of napkin code. I went for simple, easy 
 
 Directories and Versions
 cDOF - C/C++ versions (fastest)
-PerlDOF - Perl versions (about 30x slower)
+PerlDOF - Perl versions (about 30x slower) - This is where the algorithm development happens. Functions then re-written in C and Python
 PyDOF - Python versions (about 50-70x slower)
 
 As of this version, drag functions are not implemented. 
