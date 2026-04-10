@@ -5,6 +5,8 @@ The programs here are for learning about trajectory calculations, at the moment,
 for code I've written and re-written dozens of times, but I want to not lose it this time. Also, I've had a lot of questions
 about how ballistics actually works.
 
+If you are interested in the mathematics, and don't want to look at code, check the project wiki.
+
 Like any complex mathematical prediction system, these programs break a trajectory in a gravity field up into a number of discrete elements, performs calculations, makes a prediction, and then does it again based on that previous prediction. The code and examples here use entirely SI (metric) units so everything is in meters, seconds, (kilo)grams. If desired, converting from metric to FPS (Feet/Pound/Second) can be done as an additional function, however the math is just easier to understand in metric.
 
 Everything here is chicken scratch back of napkin code. I went for simple, easy to understand algorithms. Constants are declared in the header, so if you needed to re-use the code here for understanding ballistics on the moon, mars, or titan, you just need to adjust the constants.
